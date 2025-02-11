@@ -1,0 +1,277 @@
+@import url(https://gistcdn.githack.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css
+);
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo-box {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-box > img {
+    border-radius: 0% 50% 50% 50%;
+} 
+
+.logo-text {
+    align-self: center;
+}
+
+.signup {
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #121212;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* header section */
+.navbar {
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 2vw;
+}
+
+.call-to-action {
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.call-to-action > .login {
+   text-decoration: none;
+   color: black;
+}
+
+/* Footer Section */
+.footer-nav {
+    margin: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-logo {
+    align-items: start;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.footer-welcome-quote {
+    margin-top: 25px;
+    font-size: 18px;
+    width: min(400px, 100%);
+}
+
+.social-icons {
+    list-style: none;
+    margin: 25px 0 0 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons > li {
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+}
+
+.social-icons > li:first-of-type {
+    font-size: 1rem;
+    background-color: rgb(30, 48, 80);
+    color: white;
+}
+
+.menu-heading {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bottom-menu > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.bottom-menu > ul >li {
+    margin-top: 25px;
+}
+
+.copyright-text {
+    text-align: center;
+    margin: 25px 100px;
+    padding: 25px 50px;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.13);
+}
+
+/* ********************* Landing page CSS ********************* */
+
+    /* Hero Section */
+    .hero-container {
+        padding: 25px 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-text {
+        align-self: center;
+    }
+
+    .hero-first-quote {
+        font-weight: 600;
+        border-radius: 50px;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #500cb013;
+        color: #5a19b6b9;
+        margin-bottom: 2%;
+    }
+
+    .hero-main-quote {
+        font-size: 80px;
+        width: min(600px, 100%);
+        margin-bottom: 2%;
+    }
+
+    .hero-main-quote > .underlined {
+        color: #408cfc;
+        position: relative;
+    }
+
+    .hero-main-quote > .underlined:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        height: 7px;
+        width: 100%;
+        border: solid 6px #408cfc;
+        border-color: #408cfc transparent transparent transparent;
+        border-radius: 70% 5%;
+    }
+
+    .hero-welcome-quote {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .hero-text > .signup {
+        font-size: 24px;
+        border-radius: 50px;
+        background-color: #121212;
+        color: white;
+        padding: 20px 40px;
+        margin-top: 25px;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image > img {
+        border-radius: 15%;
+    }
+
+    /* Quote Section */
+    .page-quote {
+        padding: 25px 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .page-quote > p {
+        text-align: center;
+        font-size: 80px;
+        font-weight: bold;
+        width: min(63%);
+    }
+
+    .page-quote > p > span {
+        color: #408cfc;
+    }
+
+    /* Feature Section */
+
+    .feature-container {
+        margin: 25px 100px;
+        padding: 150px 100px;
+        border-radius: 50px;
+        background-color: rgba(128, 128, 128, 0.13);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .feature-image {
+        width: 50%;
+        height: 50%;
+        justify-self: center;
+    }
+
+    .feature-image > img {
+        border-radius: 50px;
+    }
+
+    .feature-main-text {
+        font-size: 64px;
+        width: min(600px, 100%);
+        font-weight: bold;
+    }
+
+    .feature-main-text > span {
+        color: #408cfc;
+    }
+
+    .feature-description-text {
+        margin-bottom: 50px;
+    }
+
+    /* Visualize Graph Section */
+    .feature-key-points {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    /* Expense Track Section */
+    .feature-text > .signup {
+        font-size: 24px;
+        border-radius: 50px;
+        background-color: #121212;
+        color: white;
+        padding: 20px 40px;
+    }
