@@ -15,7 +15,7 @@
                     <div class="logo-box">
                         <img src="./logo.webp" alt="logo" width="100%">
                     </div>
-                    <a href="index.html" class="logo-text">
+                    <a href="/" class="logo-text">
                         FinanceTracker
                     </a>
                 </div>
@@ -53,33 +53,44 @@
                     <hr/>
                     <div class="signup-form">
                         <!-- Sign Up Form -->
-                         <form action="">
+                         <form action="" method="post" enctype="">
                             <div class="form-fieldset">
                                 <div class="first-row">
                                     <fieldset>
                                         <legend>Email</legend>
-                                        <input type="email" name="email" required>
+                                        <input 
+                                        type="email" 
+                                        name="email" 
+                                        id="exampleInputEmail1"
+                                        aria-describedby="emailHelp"
+                                        required>
                                     </fieldset>
                                 </div>
 
                                 <div class="second-row">
                                     <fieldset>
                                         <legend>Password</legend>
-                                        <input type="password" name="password" required>
+                                        <input 
+                                        type="password" 
+                                        name="password" 
+                                        id="exampleInputPassword1"
+                                        required>
                                     </fieldset>
                                 </div>
 
                                 <div class="third-row">
                                     <fieldset>
                                         <legend>Confirm Password</legend>
-                                        <input type="password" name="confirmPassword" required>
+                                        <input type="password" name="confirmPassword" 
+                                        id="exampleInputPassword2"
+                                        required>
                                     </fieldset>
                                 </div>
 
                             </div>
 
                             <div class="form-submit">
-                                <input type="submit" class="signup-submit-btn" value="Sign up"/>
+                                <button type="submit" class="signup-submit-btn">Sign Up</button>
                             </div>
                          </form>
                     </div>
@@ -106,7 +117,7 @@
                         <div class="logo-box">
                             <img src="./logo.webp" alt="logo" width="100%">
                         </div>
-                        <a href="index.html" class="logo-text">
+                        <a href="/" class="logo-text">
                             FinanceTracker
                         </a>
                     </div>

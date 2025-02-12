@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Finance Tracker</title>
+        <style>
+            .nav-menu > ul > li:first-of-type {
+                background-color: #121212;
+            }
+            .nav-menu > ul > li:first-of-type  > a{
+                color: white;
+            }
+        </style>
+
+        <link rel="stylesheet" href="./styles.css"/>
+    </head>
+    <body>
+        <!-- Header Section  -->
+        <header>
+            <div class="dashboard-topbar">
+                <div class="logo">
+                    <div class="logo-box">
+                        <img src="./logo.webp" alt="logo" width="100%">
+                    </div>
+                    <a href="/dashboard" class="logo-text">
+                        FinanceTracker
+                    </a>
+                </div>
+
+                <div class="log-off">
+                    <i class="fa-solid fa-lock"></i>
+                    <a href="/login" class="log-off-btn">
+                        Log off
+                    </a>
+                </div>
+               
+            </div>
+        </header>
+        <!-- Nav Menu Section -->
+        <section>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="dashboard">Home</a></li>
+                    <li><a href="dashboard">Transactions</a></li>
+                    <li><a href="dashboard">Income</a></li>
+                    <li><a href="dashboard">Expences</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Dashboard Main Section -->
+        <section>
+            <div class="main">
+                <div class="background-stripe">
+                </div>
+                <div class="content-wrapper">
+                    <!-- Balance Card -->
+                    <div class="balance-card">
+                        Balance
+                    </div>
+
+                    <!-- Overview: Income and Expense card-->
+                    <div class="overview">
+                        <div class="overview-heading">Overview</div>
+                        <div class="overview-content">
+                            <div class="income-card">
+                                Income
+                            </div>
+    
+                            <div class="expence-card">
+                                Expense
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CashFlow graphs -->
+                    <div class="cashflow-graphs">
+                        <div class="cashflow-heading">Cashflow</div>
+                        <div class="cashflow-content">
+                            <div class="income-graph">
+                                Incomes graph
+                            </div>
+                            <div class="expense-graph">
+                                Expense graph
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Transactions -->
+                     <div class="transaction-recent">
+                        <div class="transaction-heading">Transactions</div>
+                        <div class="transaction-wrapper">
+                            <table class="transaction-record">
+                                <thead>
+                                    <tr>
+                                        <div>
+                                            <th>Description</th>
+                                            <th>Income($)</th>
+                                            <th>Expense($)</th>
+                                            <th>Balance($)</th>
+                                        </div>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="transaction-date">
+                                                Date
+                                            </div>
+                                            <div class="transaction-detail">
+                                                Description
+                                            </div>
+                                        </td>
+                                        <td>$1000</td>
+                                        <td>-</td>
+                                        <td>$1000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="transaction-date">
+                                                Date
+                                            </div>
+                                            <div class="transaction-detail">
+                                                Description
+                                            </div>
+                                        </td>
+                                        <td>$1000</td>
+                                        <td>-</td>
+                                        <td>$1000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="transaction-date">
+                                                Date
+                                            </div>
+                                            <div class="transaction-detail">
+                                                Description
+                                            </div>
+                                        </td>
+                                        <td>$1000</td>
+                                        <td>-</td>
+                                        <td>$1000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="transaction-date">
+                                                Date
+                                            </div>
+                                            <div class="transaction-detail">
+                                                Description
+                                            </div>
+                                        </td>
+                                        <td>$1000</td>
+                                        <td>-</td>
+                                        <td>$1000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="transaction-date">
+                                                Date
+                                            </div>
+                                            <div class="transaction-detail">
+                                                Description
+                                            </div>
+                                        </td>
+                                        <td>$1000</td>
+                                        <td>-</td>
+                                        <td>$1000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+       
+
+        <!-- Font Awesome kit -->
+        <script src="https://kit.fontawesome.com/0682177ecb.js" crossorigin="anonymous"></script>
+    </body>
+</html>
