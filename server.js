@@ -18,6 +18,16 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname,"src","html","index.html"));
 })
 
+// Login page Route 
+app.get('/login', (req, res) => {
+    res.sendFile(path.join(__dirname,"src","html","login.html"));
+})
+
+// Signup page Route 
+app.get('/signup', (req, res) => {
+    res.sendFile(path.join(__dirname,"src","html","signup.html"));
+})
+
 // Start the server 
 app.listen(PORT, (error) => {
     error

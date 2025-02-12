@@ -275,3 +275,156 @@ a {
         color: white;
         padding: 20px 40px;
     }
+
+    /* ********************* Signup page css ********************* */
+
+    /* Form Section */
+    .main-container {
+        padding: 25px 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10%;
+    }
+
+    .signup-form-wrapper {
+        padding: 100px 100px;
+    }
+
+    .signup-form-welcome-heading {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .signup-form-welcome-heading > span {
+        color: #408cfc;
+    }
+
+    .signup-form-welcome-text {
+        margin-bottom: 25px;
+    }
+
+    .signup-form {
+        margin-top: 25px;
+    }
+
+    .form-fieldset fieldset {
+        border: none;
+        padding-left: 0;
+    }
+
+    .form-fieldset fieldset > legend {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .form-fieldset input {
+        width: 100%;
+        height: 30px;
+        border-color: rgba(172, 164, 164, 0.308);
+        border-radius: 5px;
+    }
+
+    .form-fieldset input:focus {
+        outline: none;
+        border-color: #408cfc;
+    }
+
+    .signup-submit-btn {
+        font-weight: bold;
+        color: white;
+        background: linear-gradient(to right, darkblue, #408cfc);
+        width: 98%;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 25px;
+        margin-left: 2px;
+        border: none;
+    }
+
+    .signup-form-existing-user-redirect {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .login-redirect {
+        text-decoration: none;
+        color: black;
+    }
+
+
+    /********************** Login page css **********************************/
+
+    /* Form Section */
+    .main-container {
+        padding: 25px 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10%;
+    }
+
+    .login-form-wrapper {
+        padding: 100px 100px;
+    }
+
+    .login-form-welcome-heading {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .login-form-welcome-heading > span {
+        color: #408cfc;
+    }
+
+    .login-form-welcome-text {
+        margin-bottom: 25px;
+    }
+
+    .login-form {
+        margin-top: 25px;
+    }
+
+    .form-fieldset fieldset {
+        border: none;
+        padding-left: 0;
+    }
+
+    .form-fieldset fieldset > legend {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .form-fieldset input {
+        width: 100%;
+        height: 30px;
+        border-color: rgba(172, 164, 164, 0.308);
+        border-radius: 5px;
+    }
+
+    .form-fieldset input:focus {
+        outline: none;
+        border-color: #408cfc;
+    }
+
+    .login-submit-btn {
+        font-weight: bold;
+        color: white;
+        background: linear-gradient(to right, darkblue, #408cfc);
+        width: 98%;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 25px;
+        margin-left: 2px;
+        border: none;
+    }
+
+    .login-form-new-user-redirect {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .signup-redirect {
+        text-decoration: none;
+        color: black;
+    }
